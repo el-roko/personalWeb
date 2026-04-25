@@ -1,0 +1,146 @@
+body{
+	font-family: Arial,Verdana,Tahoma,san-serif;;
+}
+div{
+			/*border:1px solid blue;
+			min-height: 100px;*/
+		}
+.list li a{
+	margin-left: 3em;
+	font-weight: bold;
+	color:purple;
+}
+
+.clave {
+	color:purple;
+	font-size: 300%;
+	font-weight:bold;
+	box-shadow: 2px 2px 5px purple;
+	padding:2%;
+}
+
+.banner{
+	background-image: url('images/banner1.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.overlay{
+	background-color: rgba(0, 0, 0, 0.7);
+	height:100%;
+}
+
+.box-pack{
+	background-color: #342A21;
+}
+
+.box{
+	background-color: #998888;
+	box-shadow:2px 2px 5px #FBFBF2 ;
+}
+
+.box h3{
+	color:#FBFBF2;
+	font-weight: lighter;
+}
+
+.box p{
+	color:#342A21;
+	text-align: center;
+}
+
+.icon{
+	display:flex;
+	flex-direction:column;
+	position:fixed;
+	right:20px;
+	bottom:120px;
+}
+
+.vas{
+	background-image: url('images/me.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.pic{
+	position: absolute;
+	width:20%;
+	right:7%;
+	top:105%;
+	z-index: 1;
+}
+
+.about{
+	background-color: #FBFBF2;
+	z-index: -1;
+}
+
+.about p{
+	color:purple;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.port{
+	text-align: center;
+	padding-bottom: 3%;
+	box-shadow:2px 2px 5px #342A21;
+	margin: 1%;
+}
+
+.port-con{
+	background-color: #FBFBF2;
+	color: ##998888;
+}
+
+.port-con h3, .port-con p{
+	color: #342A21;
+	font-weight: bold;
+}
+
+.port-con p{
+	color: #342A21;
+}
+.port-con a{
+	color: purple;
+}
+
+.portfolio{
+	background-color:#FBFBF2 ;
+}
+
+.footer{
+	background-color:#998888;
+	color:#FBFBF2; 
+
+}
+
+
+@media screen and (max-width: 768px){
+
+	.pic{
+	position: absolute;
+	width:39%;
+	right:0%;
+	top:73%;
+	z-index: 1;
+}
+.about p{
+	color:purple;
+	font-size: .8em;
+	text-align: center;
+}
+}
+
+@media screen and (max-width: 1200px){
+
+	.pic{
+	position: absolute;
+	width:27%;
+	right:3%;
+	top:51%;
+	z-index: 1;
+}
+
+}
