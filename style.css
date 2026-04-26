@@ -38,6 +38,19 @@ div{
 	background-color: #998888;
 	box-shadow:2px 2px 5px #FBFBF2 ;
 }
+.btn{
+	background-color: #998888;
+	color:purple;
+	font-weight: bold;
+}
+.bt .btn{
+	background-color:purple;
+	color:white;
+}
+.bt .btn:hover{
+	background-color:white;
+	color:purple;
+}
 
 .box h3{
 	color:#FBFBF2;
@@ -88,6 +101,15 @@ div{
 	box-shadow:2px 2px 5px #342A21;
 	margin: 1%;
 }
+.crd h5{
+	color: purple;
+}
+.crd {
+	color: purple;
+}
+.port p{
+	color: purple;
+}
 
 .port-con{
 	background-color: #FBFBF2;
@@ -114,6 +136,16 @@ div{
 	background-color:#998888;
 	color:#FBFBF2; 
 
+}
+h1,h3,h4{
+	color:purple;
+	font-weight: bold;
+}
+
+.navv a:hover{
+	font-weight: bolder;
+	color:brown;
+	border-bottom: 2px solid purple;
 }
 
 
